@@ -1,0 +1,91 @@
+/* GIS in Motion — clean academic theme, no external dependencies */
+:root {
+  --ink: #1d2327; --muted: #5b6770; --line: #e2e6e9; --bg: #fcfcfa; --card: #ffffff;
+  --accent: #1f6f5c; --accent-2: #b5651d; --code-bg: #f4f5f2;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--serif); font-size: 1.075rem; line-height: 1.7; }
+.wrap { max-width: 50rem; margin: 0 auto; padding: 0 1.25rem; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent-2); }
+h1, h2, h3, h4 { font-family: var(--sans); line-height: 1.25; color: #12181b; }
+h1 { font-size: 2rem; margin: 0.4em 0 0.3em; letter-spacing: -0.01em; }
+h2 { font-size: 1.4rem; margin-top: 2.2em; padding-bottom: .25em; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1.12rem; margin-top: 1.8em; }
+h4 { font-size: 1rem; margin-top: 1.4em; }
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+
+/* Header / nav */
+.site-header { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; min-height: 3.6rem; }
+.site-title { font-family: var(--sans); font-weight: 700; font-size: 1.15rem; color: var(--ink); text-decoration: none; }
+.site-title .logo { color: var(--accent); }
+.site-nav { display: flex; gap: 1.1rem; font-family: var(--sans); font-size: .95rem; }
+.site-nav a { color: var(--muted); text-decoration: none; padding: .2rem 0; border-bottom: 2px solid transparent; }
+.site-nav a:hover { color: var(--ink); }
+.site-nav a.active { color: var(--ink); border-bottom-color: var(--accent); }
+.nav-toggle, .nav-toggle-label { display: none; }
+@media (max-width: 640px) {
+  body { font-size: 1rem; }
+  h1 { font-size: 1.6rem; }
+  .nav-toggle-label { display: block; font-family: var(--sans); font-size: .9rem; border: 1px solid var(--line); border-radius: 6px; padding: .2rem .6rem; cursor: pointer; }
+  .site-nav { display: none; width: 100%; flex-direction: column; gap: 0; padding-bottom: .6rem; }
+  .site-nav a { padding: .5rem 0; border-bottom: 1px solid var(--line); }
+  .nav-toggle:checked ~ .site-nav { display: flex; }
+}
+
+/* Content */
+.content { padding-top: 1.5rem; padding-bottom: 3rem; }
+.lede { font-size: 1.15rem; color: var(--muted); margin-top: 0; }
+.kicker { font-family: var(--sans); text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; color: var(--accent-2); margin: 0; font-weight: 600; }
+.subtitle { font-size: 1.1rem; color: var(--muted); margin: .2rem 0; }
+.byline { font-family: var(--sans); font-size: .9rem; color: var(--muted); }
+.status { background: #fff4e5; color: #8a4b0f; padding: .05rem .45rem; border-radius: 4px; }
+.article-header { border-bottom: 1px solid var(--line); margin-bottom: 1.5rem; padding-bottom: .6rem; }
+.back { margin-top: 3rem; font-family: var(--sans); font-size: .95rem; }
+blockquote { margin: 1.2rem 0; padding: .6rem 1rem; border-left: 4px solid var(--accent); background: #f1f6f4; color: #2a3a35; }
+blockquote p { margin: .3rem 0; }
+.note, .callout { border: 1px solid #f0d9b5; background: #fffaf2; padding: .8rem 1rem; border-radius: 8px; font-size: .97rem; }
+.abstract { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: .4rem 1.2rem 1rem; }
+.abstract h2 { border: 0; margin-top: .8rem; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .06em; }
+
+/* Tables */
+.table-wrap, table { display: block; overflow-x: auto; }
+table { border-collapse: collapse; margin: 1.2rem 0; font-family: var(--sans); font-size: .9rem; max-width: 100%; }
+th, td { border: 1px solid var(--line); padding: .45rem .65rem; vertical-align: top; text-align: left; }
+th { background: #f3f5f4; }
+caption { caption-side: top; text-align: left; font-style: italic; color: var(--muted); padding-bottom: .3rem; }
+
+/* Code */
+code { font-family: var(--mono); font-size: .86em; background: var(--code-bg); padding: .1em .3em; border-radius: 3px; }
+pre { background: var(--code-bg); border: 1px solid var(--line); border-radius: 8px; padding: .9rem 1rem; overflow-x: auto; line-height: 1.45; }
+pre code { background: none; padding: 0; font-size: .82rem; }
+
+/* TOC */
+#markdown-toc { font-family: var(--sans); font-size: .92rem; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: .8rem 1rem .8rem 2.2rem; }
+#markdown-toc ul { padding-left: 1.2rem; }
+details.toc summary { font-family: var(--sans); font-weight: 600; cursor: pointer; margin-bottom: .5rem; }
+
+/* Cards & lists */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem; }
+.card h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+.card p { margin: .2rem 0; font-size: .95rem; color: var(--muted); }
+.topic-index { font-family: var(--sans); font-size: .93rem; columns: 2; padding-left: 1.2rem; }
+@media (max-width: 640px) { .topic-index { columns: 1; } }
+.paper { border-bottom: 1px dashed var(--line); padding: .9rem 0; }
+.paper:last-child { border-bottom: 0; }
+.paper-title { font-family: var(--sans); font-weight: 650; font-size: 1.02rem; line-height: 1.35; }
+.paper-meta { font-family: var(--sans); font-size: .85rem; color: var(--muted); margin: .2rem 0; }
+.paper-summary { margin: .3rem 0 0; }
+.tag { display: inline-block; font-family: var(--sans); font-size: .75rem; background: #eef4f2; color: var(--accent); border-radius: 999px; padding: .05rem .55rem; margin-right: .3rem; }
+.mjx-container { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--line); font-family: var(--sans); font-size: .85rem; color: var(--muted); padding: 1.2rem 0 2rem; background: #fff; }
+.site-footer a { color: var(--muted); }

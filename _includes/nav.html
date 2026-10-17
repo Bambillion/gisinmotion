@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}"><span class="logo" aria-hidden="true">◍</span> {{ site.title }}</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
+    <nav class="site-nav" aria-label="Main">
+      {% assign links = "/|Home,/reading-list/|Reading List,/articles/|Articles,/books/|Books & Texts,/about/|About" | split: "," %}
+      {% for l in links %}{% assign parts = l | split: "|" %}
+      {% assign active = false %}{% if page.url == parts[0] %}{% assign active = true %}{% elsif parts[0] != "/" and page.url contains parts[0] %}{% assign active = true %}{% endif %}
+      <a href="{{ parts[0] | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ parts[1] }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

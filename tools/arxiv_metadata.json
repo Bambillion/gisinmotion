@@ -1,0 +1,390 @@
+{
+ "1710.03959": {
+  "id": "1710.03959",
+  "version": "1710.03959v1",
+  "title": "Deep learning in remote sensing: a review",
+  "authors": [
+   "Xiao Xiang Zhu",
+   "Devis Tuia",
+   "Lichao Mou",
+   "Gui-Song Xia",
+   "Liangpei Zhang",
+   "Feng Xu",
+   "Friedrich Fraundorfer"
+  ],
+  "published": "2017-10-11",
+  "summary": "Standing at the paradigm shift towards data-intensive science, machine learning techniques are becoming increasingly important. In particular, as a major breakthrough in the field, deep learning has proven as an extremely powerful tool in many fields. Shall we embrace deep learning as the key to all? Or, should we resist a 'black-box' solution? There are controversial opinions in the remote sensing community. In this article, we analyze the challenges of using deep learning for remote sensing data analysis, review the recent advances, and provide resources to make deep learning in remote sensing ridiculously simple to start with. More importantly, we advocate remote sensing scientists to bring their expertise into deep learning, and use it as an implicit general model to tackle unprecedented large-scale influential challenges, such as climate change and urbanization.",
+  "doi": "10.1109/MGRS.2017.2762307",
+  "journal_ref": null,
+  "category": "cs.CV"
+ },
+ "1705.07874": {
+  "id": "1705.07874",
+  "version": "1705.07874v2",
+  "title": "A Unified Approach to Interpreting Model Predictions",
+  "authors": [
+   "Scott Lundberg",
+   "Su-In Lee"
+  ],
+  "published": "2017-05-22",
+  "summary": "Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.AI"
+ },
+ "2605.24459": {
+  "id": "2605.24459",
+  "version": "2605.24459v1",
+  "title": "Causal Evaluation of Contributing Factors to Urban Heat Island",
+  "authors": [
+   "Sadaf Alavi Soltani",
+   "Saeid Niazmardi",
+   "Ali Esmaeily"
+  ],
+  "published": "2026-05-23",
+  "summary": "Urban heat islands (UHI) are formed due to complex interactions between various factors. UHI, its contributing factors, and their interaction vary over time and location. Accordingly, understanding the causal relation between UHI and its contributing factors is essential to minimizing its adverse effects on the environment and human health. Here, we proposed a statistical method based on Hotelling's T-square test to analyze this association. The proposed test estimates the UHI trends across different urban districts and compares the UHI contributing factors between the districts with increasing and non-increasing UHI trends. This comparison, if significantly different, can be interpreted as evidence of a causal association between the factor and UHI. This research used the proposed test to analyze the UHI and its contributing factors across 22 municipal districts of Tehran between 2003 and 2021. We examined the time series of weather conditions (measured by precipitation, NDSI, and NDWI), vegetation cover (measured by NDVI and EVI), and urban density (measured by NDBI) as factors contributing to the UHI, which was measured through nighttime LST. The results showed that all districts in Tehran exhibited stable or increasing trends in LST, leading to UHI effects. The proposed test indicated that the temporal changes in NDWI and NDBI did not have a causal relationship with UHIs. Meanwhile, variations in other factors were identified as contributing to the intensification of UHIs.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "eess.IV"
+ },
+ "2312.10872": {
+  "id": "2312.10872",
+  "version": "2312.10872v2",
+  "title": "Evaluating the Role of Training Data Origin for Country-Scale Cropland Mapping in Data-Scarce Regions: A Case Study of Nigeria",
+  "authors": [
+   "Joaquin Gajardo",
+   "Michele Volpi",
+   "Daniel Onwude",
+   "Thijs Defraeye"
+  ],
+  "published": "2023-12-18",
+  "summary": "Cropland maps are essential for remote sensing-based agricultural monitoring, providing timely insights without extensive field surveys. Machine learning enables large-scale mapping but depends on geo-referenced ground-truth data, which is costly to collect, motivating the use of global datasets in data-scarce regions. A key challenge is understanding how the quantity, quality, and proximity of the training data to the target region influences model performance. We evaluate this in Nigeria, using 1,827 manually labelled samples covering the whole country, and subsets of the Geowiki dataset: Nigeria-only, regional (Nigeria and neighbouring countries), and global. We extract pixel-wise multi-source time series arrays from Sentinel-1, Sentinel-2, ERA5 climate, and a digital elevation model using Google Earth Engine, comparing Random Forests with LSTMs, including a lightweight multi-headed LSTM variant. Results show local data significantly boosts performance, with accuracy gains up to 0.246 (RF) and 0.178 (LSTM). Nigeria-only or regional data outperformed global data despite the lower amount of labels, with the exception of the multi-headed LSTM, which benefited from global data when local samples were absent. Sentinel-1, climate, and topographic data are critical data sources, with their removal reducing F1-score by up to 0.593. Addressing class imbalance also improved LSTM accuracy by up to 0.071. Our top-performing model (Nigeria-only LSTM) achieved an F1-score of 0.814 and accuracy of 0.842, matching the best global land cover product while offering stronger recall, critical for food security. We release code, data, maps, and an interactive web app to support future work.",
+  "doi": "10.1016/j.ophoto.2025.100091",
+  "journal_ref": "ISPRS Open J. Photogramm. Remote Sens. 17 (2025) 100091",
+  "category": "cs.CV"
+ },
+ "2609.19010": {
+  "id": "2609.19010",
+  "version": "2609.19010v1",
+  "title": "Tabular Deep Learning vs Classical Machine Learning for Urban Land Cover Classification",
+  "authors": [
+   "Muntasir Tabasum",
+   "Tanpia Tasnim",
+   "Md. Ekramul Islam",
+   "Al Zadid Sultan Bin Habib"
+  ],
+  "published": "2026-07-20",
+  "summary": "Urban Land Cover (ULC) classification plays a crucial role in urban planning, environmental monitoring, and sustainable development. We study this task using the ULC dataset from the UCI Machine Learning Repository, which includes tabular features derived from high-resolution aerial imagery across nine classes (e.g., roads, trees, grass, water). The dataset presents typical remote sensing challenges, including high dimensionality, heterogeneous features, and class imbalance. In a unified, reproducible pipeline, we benchmark classical machine learning models (e.g., Logistic Regression, SVM, Random Forest, XGBoost, CatBoost) against Tabular Deep Learning (TDL) models (TabNet, FT-Transformer, TabTransformer, TabSeq, and 1D CNNs). To address class imbalance, we employ weighted cross-entropy loss for TDL models and evaluate performance using accuracy, macro-precision, macro-recall, macro-F1, AUC-ROC, and confusion matrices. Our results show that while tree ensembles remain strong general baselines, TDL models can match or exceed their performance when non-linear interactions are significant and imbalance handling is effective, providing complementary advantages for urban land cover mapping. See code: https://github.com/mtesha/tdl-vs-ml-urbanlandcover",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.LG"
+ },
+ "1902.06148": {
+  "id": "1902.06148",
+  "version": "1902.06148v3",
+  "title": "BigEarthNet: A Large-Scale Benchmark Archive For Remote Sensing Image Understanding",
+  "authors": [
+   "Gencer Sumbul",
+   "Marcela Charfuelan",
+   "Begüm Demir",
+   "Volker Markl"
+  ],
+  "published": "2019-02-16",
+  "summary": "This paper presents the BigEarthNet that is a new large-scale multi-label Sentinel-2 benchmark archive. The BigEarthNet consists of 590,326 Sentinel-2 image patches, each of which is a section of i) 120x120 pixels for 10m bands; ii) 60x60 pixels for 20m bands; and iii) 20x20 pixels for 60m bands. Unlike most of the existing archives, each image patch is annotated by multiple land-cover classes (i.e., multi-labels) that are provided from the CORINE Land Cover database of the year 2018 (CLC 2018). The BigEarthNet is significantly larger than the existing archives in remote sensing (RS) and thus is much more convenient to be used as a training source in the context of deep learning. This paper first addresses the limitations of the existing archives and then describes the properties of the BigEarthNet. Experimental results obtained in the framework of RS image scene classification problems show that a shallow Convolutional Neural Network (CNN) architecture trained on the BigEarthNet provides much higher accuracy compared to a state-of-the-art CNN model pre-trained on the ImageNet (which is a very popular large-scale benchmark archive in computer vision). The BigEarthNet opens up promising directions to advance operational RS applications and research in massive Sentinel-2 image archives.",
+  "doi": "10.1109/IGARSS.2019.8900532",
+  "journal_ref": null,
+  "category": "cs.CV"
+ },
+ "2301.01520": {
+  "id": "2301.01520",
+  "version": "2301.01520v2",
+  "title": "Towards Explainable Land Cover Mapping: a Counterfactual-based Strategy",
+  "authors": [
+   "Cassio F. Dantas",
+   "Diego Marcos",
+   "Dino Ienco"
+  ],
+  "published": "2023-01-04",
+  "summary": "Counterfactual explanations are an emerging tool to enhance interpretability of deep learning models. Given a sample, these methods seek to find and display to the user similar samples across the decision boundary. In this paper, we propose a generative adversarial counterfactual approach for satellite image time series in a multi-class setting for the land cover classification task. One of the distinctive features of the proposed approach is the lack of prior assumption on the targeted class for a given counterfactual explanation. This inherent flexibility allows for the discovery of interesting information on the relationship between land cover classes. The other feature consists of encouraging the counterfactual to differ from the original sample only in a small and compact temporal segment. These time-contiguous perturbations allow for a much sparser and, thus, interpretable solution. Furthermore, plausibility/realism of the generated counterfactual explanations is enforced via the proposed adversarial learning strategy.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.LG"
+ },
+ "2310.02476": {
+  "id": "2310.02476",
+  "version": "2310.02476v1",
+  "title": "ML4EJ: Decoding the Role of Urban Features in Shaping Environmental Injustice Using Interpretable Machine Learning",
+  "authors": [
+   "Yu-Hsuan Ho",
+   "Zhewei Liu",
+   "Cheng-Chun Lee",
+   "Ali Mostafavi"
+  ],
+  "published": "2023-10-03",
+  "summary": "Understanding the key factors shaping environmental hazard exposures and their associated environmental injustice issues is vital for formulating equitable policy measures. Traditional perspectives on environmental injustice have primarily focused on the socioeconomic dimensions, often overlooking the influence of heterogeneous urban characteristics. This limited view may obstruct a comprehensive understanding of the complex nature of environmental justice and its relationship with urban design features. To address this gap, this study creates an interpretable machine learning model to examine the effects of various urban features and their non-linear interactions to the exposure disparities of three primary hazards: air pollution, urban heat, and flooding. The analysis trains and tests models with data from six metropolitan counties in the United States using Random Forest and XGBoost. The performance is used to measure the extent to which variations of urban features shape disparities in environmental hazard levels. In addition, the analysis of feature importance reveals features related to social-demographic characteristics as the most prominent urban features that shape hazard extent. Features related to infrastructure distribution and land cover are relatively important for urban heat and air pollution exposure respectively. Moreover, we evaluate the models' transferability across different regions and hazards. The results highlight limited transferability, underscoring the intricate differences among hazards and regions and the way in which urban features shape hazard exposures. The insights gleaned from this study offer fresh perspectives on the relationship among urban features and their interplay with environmental hazard exposure disparities, informing the development of more integrated urban design policies to enhance social equity and environmental injustice issues.",
+  "doi": "10.1016/j.cities.2025.106546",
+  "journal_ref": "Cities 169 (2026) 106546",
+  "category": "cs.LG"
+ },
+ "2608.12001": {
+  "id": "2608.12001",
+  "version": "2608.12001v1",
+  "title": "Remote Sensing and Machine Learning-Based Analysis of Land Use and Vegetation Change in Dhaka District, Bangladesh",
+  "authors": [
+   "Muhammad Masud Tarek",
+   "Md. Alamgir Hossain",
+   "Md. Samiul Islam",
+   "Muntasir Hasan Kanchan"
+  ],
+  "published": "2026-08-12",
+  "summary": "Rapid urbanization in Dhaka District, Bangladesh has triggered substantial alterations in land use and environmental conditions, necessitating systematic monitoring for informed urban planning and ecological sustainability. This study employs remote sensing data and machine learning techniques to analyze spatiotemporal changes in land cover and vegetation dynamics between 2019 and 2024. High-resolution satellite imagery from Sentinel-2 MSI and Landsat 8 was utilized to classify land cover types and compute spectral indices including the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI). A supervised machine learning approach incorporating Decision Tree, K-Nearest Neighbors (KNN), and Random Forest classifiers was applied using labeled geospatial training points within Google Earth Engine. Accuracy assessments were conducted using confusion matrices and kappa statistics. Results indicate a 59.5% increase in urban built-up areas and a significant decline in vegetation (-8.46%) and water bodies (-7.77%) over the five-year period. Land conversion from vegetated and aquatic areas to urban infrastructure was identified as a dominant trend. Among the models, Random Forest demonstrated the highest classification accuracy. These findings underscore the growing environmental pressures driven by unregulated urban expansion in Dhaka. The study highlights the potential of remote sensing and machine learning tools in providing timely, actionable data to support sustainable urban development, land-use regulation, and ecosystem conservation policies.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.LG"
+ },
+ "2004.12880": {
+  "id": "2004.12880",
+  "version": "2004.12880v2",
+  "title": "Improvement in Land Cover and Crop Classification based on Temporal Features Learning from Sentinel-2 Data Using Recurrent-Convolutional Neural Network (R-CNN)",
+  "authors": [
+   "Vittorio Mazzia",
+   "Aleem Khaliq",
+   "Marcello Chiaberge"
+  ],
+  "published": "2020-04-27",
+  "summary": "The increasing spatial and temporal resolution of globally available satellite images, such as provided by Sentinel-2, creates new possibilities for researchers to use freely available multi-spectral optical images, with decametric spatial resolution and more frequent revisits for remote sensing applications such as land cover and crop classification (LC&CC), agricultural monitoring and management, environment monitoring. Existing solutions dedicated to cropland mapping can be categorized based on per-pixel based and object-based. However, it is still challenging when more classes of agricultural crops are considered at a massive scale. In this paper, a novel and optimal deep learning model for pixel-based LC&CC is developed and implemented based on Recurrent Neural Networks (RNN) in combination with Convolutional Neural Networks (CNN) using multi-temporal sentinel-2 imagery of central north part of Italy, which has diverse agricultural system dominated by economic crop types. The proposed methodology is capable of automated feature extraction by learning time correlation of multiple images, which reduces manual feature engineering and modeling crop phenological stages. Fifteen classes, including major agricultural crops, were considered in this study. We also tested other widely used traditional machine learning algorithms for comparison such as support vector machine SVM, random forest (RF), Kernal SVM, and gradient boosting machine, also called XGBoost. The overall accuracy achieved by our proposed Pixel R-CNN was 96.5%, which showed considerable improvements in comparison with existing mainstream methods. This study showed that Pixel R-CNN based model offers a highly accurate way to assess and employ time-series data for multi-temporal classification tasks.",
+  "doi": "10.3390/app10010238",
+  "journal_ref": "Appl. Sci. 2020, 10(1), 238",
+  "category": "cs.CV"
+ },
+ "2104.10922": {
+  "id": "2104.10922",
+  "version": "2104.10922v1",
+  "title": "Continental-scale land cover mapping at 10 m resolution over Europe (ELC10)",
+  "authors": [
+   "Zander S. Venter",
+   "Markus A. K. Sydenham"
+  ],
+  "published": "2021-04-22",
+  "summary": "Widely used European land cover maps such as CORINE are produced at medium spatial resolutions (100 m) and rely on diverse data with complex workflows requiring significant institutional capacity. We present a high resolution (10 m) land cover map (ELC10) of Europe based on a satellite-driven machine learning workflow that is annually updatable. A Random Forest classification model was trained on 70K ground-truth points from the LUCAS (Land Use/Cover Area frame Survey) dataset. Within the Google Earth Engine cloud computing environment, the ELC10 map can be generated from approx. 700 TB of Sentinel imagery within approx. 4 days from a single research user account. The map achieved an overall accuracy of 90% across 8 land cover classes and could account for statistical unit land cover proportions within 3.9% (R2 = 0.83) of the actual value. These accuracies are higher than that of CORINE (100 m) and other 10-m land cover maps including S2GLC and FROM-GLC10. We found that atmospheric correction of Sentinel-2 and speckle filtering of Sentinel-1 imagery had minimal effect on enhancing classification accuracy (< 1%). However, combining optical and radar imagery increased accuracy by 3% compared to Sentinel-2 alone and by 10% compared to Sentinel-1 alone. The conversion of LUCAS points into homogenous polygons under the Copernicus module increased accuracy by <1%, revealing that Random Forests are robust against contaminated training data. Furthermore, the model requires very little training data to achieve moderate accuracies - the difference between 5K and 50K LUCAS points is only 3% (86 vs 89%). At 10-m resolution, the ELC10 map can distinguish detailed landscape features like hedgerows and gardens, and therefore holds potential for aerial statistics at the city borough level and monitoring property-level environmental interventions (e.g. tree planting).",
+  "doi": "10.3390/rs13122301",
+  "journal_ref": "Remote Sens. 2021, 13, 2301",
+  "category": "cs.CV"
+ },
+ "2411.02935": {
+  "id": "2411.02935",
+  "version": "2411.02935v2",
+  "title": "A High Resolution Urban and Rural Settlement Map of Africa Using Deep Learning and Satellite Imagery",
+  "authors": [
+   "Mohammad Kakooei",
+   "James Bailie",
+   "Markus B. Pettersson",
+   "Albin Söderberg",
+   "Albin Becevic",
+   "Adel Daoud"
+  ],
+  "published": "2024-11-05",
+  "summary": "Accurate and consistent mapping of urban and rural areas is crucial for sustainable development, spatial planning, and policy design. It is particularly important in simulating the complex interactions between human activities and natural resources. Existing global urban-rural datasets such as such as GHSL-SMOD, GHS Degree of Urbanisation, and GRUMP are often spatially coarse, methodologically inconsistent, and poorly adapted to heterogeneous regions such as Africa, which limits their usefulness for policy and research. Their coarse grids and rule-based classification methods obscure small or informal settlements, and produce inconsistencies between countries. In this study, we develop a DeepLabV3-based deep learning framework that integrates multi-source data, including Landsat-8 imagery, VIIRS nighttime lights, ESRI Land Use Land Cover (LULC), and GHS-SMOD, to produce a 10m resolution urban-rural map across the African continent from 2016 to 2022. The use of Landsat data also highlights the potential to extend this mapping approach historically, reaching back to the 1990s. The model employs semantic segmentation to capture fine-scale settlement morphology, and its outputs are validated using the Demographic and Health Surveys (DHS) dataset, which provides independent, survey-based urban-rural labels. The model achieves an overall accuracy of 65% and a Kappa coefficient of 0.47 at the continental scale, outperforming existing global products such as SMOD. The resulting High-Resolution Urban-Rural (HUR) dataset provides an open and reproducible framework for mapping human settlements, enabling more context-aware analyses of Africa's rapidly evolving settlement systems. We release a continent-wide urban-rural dataset covering the period from 2016 to 2022, offering a new source for high-resolution settlement mapping in Africa.",
+  "doi": "10.1038/s41598-025-34295-7",
+  "journal_ref": "Scientific Reports 16, 637 (2026)",
+  "category": "cs.CV"
+ },
+ "2312.10798": {
+  "id": "2312.10798",
+  "version": "2312.10798v2",
+  "title": "Land use/land cover classification of fused Sentinel-1 and Sentinel-2 imageries using ensembles of Random Forests",
+  "authors": [
+   "Shivam Pande"
+  ],
+  "published": "2023-12-17",
+  "summary": "The study explores the synergistic combination of Synthetic Aperture Radar (SAR) and Visible-Near Infrared-Short Wave Infrared (VNIR-SWIR) imageries for land use/land cover (LULC) classification. Image fusion, employing Bayesian fusion, merges SAR texture bands with VNIR-SWIR imageries. The research aims to investigate the impact of this fusion on LULC classification. Despite the popularity of random forests for supervised classification, their limitations, such as suboptimal performance with fewer features and accuracy stagnation, are addressed. To overcome these issues, ensembles of random forests (RFE) are created, introducing random rotations using the Forest-RC algorithm. Three rotation approaches: principal component analysis (PCA), sparse random rotation (SRP) matrix, and complete random rotation (CRP) matrix are employed. Sentinel-1 SAR data and Sentinel-2 VNIR-SWIR data from the IIT-Kanpur region constitute the training datasets, including SAR, SAR with texture, VNIR-SWIR, VNIR-SWIR with texture, and fused VNIR-SWIR with texture. The study evaluates classifier efficacy, explores the impact of SAR and VNIR-SWIR fusion on classification, and significantly enhances the execution speed of Bayesian fusion code. The SRP-based RFE outperforms other ensembles for the first two datasets, yielding average overall kappa values of 61.80% and 68.18%, while the CRP-based RFE excels for the last three datasets with average overall kappa values of 95.99%, 96.93%, and 96.30%. The fourth dataset achieves the highest overall kappa of 96.93%. Furthermore, incorporating texture with SAR bands results in a maximum overall kappa increment of 10.00%, while adding texture to VNIR-SWIR bands yields a maximum increment of approximately 3.45%.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.CV"
+ },
+ "1908.07805": {
+  "id": "1908.07805",
+  "version": "1908.07805v1",
+  "title": "Importance of spatial predictor variable selection in machine learning applications -- Moving from data reproduction to spatial prediction",
+  "authors": [
+   "Hanna Meyer",
+   "Christoph Reudenbach",
+   "Stephan Wöllauer",
+   "Thomas Nauss"
+  ],
+  "published": "2019-08-21",
+  "summary": "Machine learning algorithms find frequent application in spatial prediction of biotic and abiotic environmental variables. However, the characteristics of spatial data, especially spatial autocorrelation, are widely ignored. We hypothesize that this is problematic and results in models that can reproduce training data but are unable to make spatial predictions beyond the locations of the training samples. We assume that not only spatial validation strategies but also spatial variable selection is essential for reliable spatial predictions. We introduce two case studies that use remote sensing to predict land cover and the leaf area index for the \"Marburg Open Forest\", an open research and education site of Marburg University, Germany. We use the machine learning algorithm Random Forests to train models using non-spatial and spatial cross-validation strategies to understand how spatial variable selection affects the predictions. Our findings confirm that spatial cross-validation is essential in preventing overoptimistic model performance. We further show that highly autocorrelated predictors (such as geolocation variables, e.g. latitude, longitude) can lead to considerable overfitting and result in models that can reproduce the training data but fail in making spatial predictions. The problem becomes apparent in the visual assessment of the spatial predictions that show clear artefacts that can be traced back to a misinterpretation of the spatially autocorrelated predictors by the algorithm. Spatial variable selection could automatically detect and remove such variables that lead to overfitting, resulting in reliable spatial prediction patterns and improved statistical spatial model performance. We conclude that in addition to spatial validation, a spatial variable selection must be considered in spatial predictions of ecological data to produce reliable predictions.",
+  "doi": "10.1016/j.ecolmodel.2019.108815",
+  "journal_ref": "Ecological Modelling, 411, 2019, 108815",
+  "category": "stat.AP"
+ },
+ "1709.00029": {
+  "id": "1709.00029",
+  "version": "1709.00029v2",
+  "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+  "authors": [
+   "Patrick Helber",
+   "Benjamin Bischke",
+   "Andreas Dengel",
+   "Damian Borth"
+  ],
+  "published": "2017-08-31",
+  "summary": "In this paper, we address the challenge of land use and land cover classification using Sentinel-2 satellite images. The Sentinel-2 satellite images are openly and freely accessible provided in the Earth observation program Copernicus. We present a novel dataset based on Sentinel-2 satellite images covering 13 spectral bands and consisting out of 10 classes with in total 27,000 labeled and geo-referenced images. We provide benchmarks for this novel dataset with its spectral bands using state-of-the-art deep Convolutional Neural Network (CNNs). With the proposed novel dataset, we achieved an overall classification accuracy of 98.57%. The resulting classification system opens a gate towards a number of Earth observation applications. We demonstrate how this classification system can be used for detecting land use and land cover changes and how it can assist in improving geographical maps. The geo-referenced dataset EuroSAT is made publicly available at https://github.com/phelber/eurosat.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.CV"
+ },
+ "1603.02754": {
+  "id": "1603.02754",
+  "version": "1603.02754v3",
+  "title": "XGBoost: A Scalable Tree Boosting System",
+  "authors": [
+   "Tianqi Chen",
+   "Carlos Guestrin"
+  ],
+  "published": "2016-03-09",
+  "summary": "Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.",
+  "doi": "10.1145/2939672.2939785",
+  "journal_ref": null,
+  "category": "cs.LG"
+ },
+ "2307.02575": {
+  "id": "2307.02575",
+  "version": "2307.02575v2",
+  "title": "How accurate are existing land cover maps for agriculture in Sub-Saharan Africa?",
+  "authors": [
+   "Hannah Kerner",
+   "Catherine Nakalembe",
+   "Adam Yang",
+   "Ivan Zvonkov",
+   "Ryan McWeeny",
+   "Gabriel Tseng",
+   "Inbal Becker-Reshef"
+  ],
+  "published": "2023-07-05",
+  "summary": "Satellite Earth observations (EO) can provide affordable and timely information for assessing crop conditions and food production. Such monitoring systems are essential in Africa, where there is high food insecurity and sparse agricultural statistics. EO-based monitoring systems require accurate cropland maps to provide information about croplands, but there is a lack of data to determine which of the many available land cover maps most accurately identify cropland in African countries. This study provides a quantitative evaluation and intercomparison of 11 publicly available land cover maps to assess their suitability for cropland classification and EO-based agriculture monitoring in Africa using statistically rigorous reference datasets from 8 countries. We hope the results of this study will help users determine the most suitable map for their needs and encourage future work to focus on resolving inconsistencies between maps and improving accuracy in low-accuracy regions.",
+  "doi": "10.1038/s41597-024-03306-z",
+  "journal_ref": "Scientific Data, 11(1), 486",
+  "category": "cs.LG"
+ },
+ "2507.13385": {
+  "id": "2507.13385",
+  "version": "2507.13385v1",
+  "title": "Using Multiple Input Modalities Can Improve Data-Efficiency and O.O.D. Generalization for ML with Satellite Imagery",
+  "authors": [
+   "Arjun Rao",
+   "Esther Rolf"
+  ],
+  "published": "2025-07-15",
+  "summary": "A large variety of geospatial data layers is available around the world ranging from remotely-sensed raster data like satellite imagery, digital elevation models, predicted land cover maps, and human-annotated data, to data derived from environmental sensors such as air temperature or wind speed data. A large majority of machine learning models trained on satellite imagery (SatML), however, are designed primarily for optical input modalities such as multi-spectral satellite imagery. To better understand the value of using other input modalities alongside optical imagery in supervised learning settings, we generate augmented versions of SatML benchmark tasks by appending additional geographic data layers to datasets spanning classification, regression, and segmentation. Using these augmented datasets, we find that fusing additional geographic inputs with optical imagery can significantly improve SatML model performance. Benefits are largest in settings where labeled data are limited and in geographic out-of-sample settings, suggesting that multi-modal inputs may be especially valuable for data-efficiency and out-of-sample performance of SatML models. Surprisingly, we find that hard-coded fusion strategies outperform learned variants, with interesting implications for future work.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.CV"
+ },
+ "2403.15720": {
+  "id": "2403.15720",
+  "version": "2403.15720v3",
+  "title": "A Bayesian Inference Approach for Reducing Inter-Investigator Variability in Sampling-Based Land Cover Classification",
+  "authors": [
+   "Narumasa Tsutsumida",
+   "Akira Kato"
+  ],
+  "published": "2024-03-23",
+  "summary": "Land cover classification faces persistent challenges with inter-investigator variability and salt-and-pepper noise. Although cloud platforms such as Google Earth Engine have made land cover classification more accessible, these issues persist, particularly when multiple investigators contribute to the process. This study developed a robust classification approach that integrates unsupervised clustering of investigator maps with a Bayesian inference framework using Dirichlet distributions. In this study, 44 investigators collected stratified reference samples across four land cover classes using point-based visual interpretation in Saitama City, Japan. We trained three different classifiers, Random Forests (RF), Support Vector Machines (SVM), and Single hidden layer Feed-forward Neural Networks (SFNN), and enhanced the system by implementing unsupervised clustering (k-Means or k-Medoids) to group reliable maps based on entropy characteristics. The Bayesian framework, employing Dirichlet distributions for both likelihood and prior distributions, enables sequential probability updates while preserving probabilistic class assignments. The Bayesian inference from the SVM classification maps achieved the highest mean overall accuracy of 0.857 for Monte Carlo sampling from the referenced JAXA land use land cover map, improving upon the non-Bayesian SVM map (0.855, p < 0.001). Analysis revealed a strong correlation (r=0.710) between investigators' labeling quality and classification accuracy, suggesting that selecting high-quality investigator maps improves the robustness of fusion. The Interspersion and Juxtaposition Index (IJI) showed that fused maps from SVM-based maps selected by k-Means reduced salt-and-pepper noise (IJI: 56.652) compared to baseline maps (IJI: 69.867). Our approach demonstrates an effective approach for combining multiple land cover classifications.",
+  "doi": "10.1080/01431161.2025.2496529",
+  "journal_ref": null,
+  "category": "stat.AP"
+ },
+ "2205.02946": {
+  "id": "2205.02946",
+  "version": "2205.02946v1",
+  "title": "Quality Assessment of the 20m SPOT DEM in Nigeria",
+  "authors": [
+   "Peter Nwilo",
+   "Johanson Onyegbula",
+   "Chukwuma Okolie",
+   "Olagoke Daramola",
+   "Oluwatimileyin Abolaji",
+   "Ikenna Arungwa"
+  ],
+  "published": "2022-05-05",
+  "summary": "The 20m SPOT DEM (Digital Elevation Model) was acquired by the Office of the Surveyor-General of the Federation (OSGoF) in Nigeria for use in topographic mapping. A localized assessment of the DEM is needed to validate its stated accuracies as it is well known that the vertical accuracy of global DEMs varies in different landscape contexts. Hence, this study assessed the quality of the DEM in variable land cover types by comparing its heights against 780 Ground Control Points (GCPs) in Lagos State and the Federal Capital Territory (FCT) of Nigeria. The pattern of distribution of the height differences was analysed using spatial autocorrelation analysis, including other accuracy metrics employed. In the general accuracy assessment, the DEM yielded root mean square errors of 2.33m in Lagos and 3.69m in the FCT. It was shown that heights over the bare lands were the most accurately represented on the DEM while heights over built-up areas are the least accurate at both locations. Despite this, the SPOT DEM accuracies in the varying land cover types surpassed its stated global accuracy. While the spatial distribution of low and high height differences in Lagos State showed clustering, the converse was the case in the FCT. Following this assessment, it is recommended that the country should extend the application scope of the DEM in order to exploit its utility to the maximum.",
+  "doi": "10.1007/s12518-021-00404-0",
+  "journal_ref": "Applied Geomatics volume 14, (2022)",
+  "category": "stat.AP"
+ },
+ "1906.07789": {
+  "id": "1906.07789",
+  "version": "1906.07789v1",
+  "title": "SEN12MS -- A Curated Dataset of Georeferenced Multi-Spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion",
+  "authors": [
+   "Michael Schmitt",
+   "Lloyd Haydn Hughes",
+   "Chunping Qiu",
+   "Xiao Xiang Zhu"
+  ],
+  "published": "2019-06-18",
+  "summary": "The availability of curated large-scale training data is a crucial factor for the development of well-generalizing deep learning methods for the extraction of geoinformation from multi-sensor remote sensing imagery. While quite some datasets have already been published by the community, most of them suffer from rather strong limitations, e.g. regarding spatial coverage, diversity or simply number of available samples. Exploiting the freely available data acquired by the Sentinel satellites of the Copernicus program implemented by the European Space Agency, as well as the cloud computing facilities of Google Earth Engine, we provide a dataset consisting of 180,662 triplets of dual-pol synthetic aperture radar (SAR) image patches, multi-spectral Sentinel-2 image patches, and MODIS land cover maps. With all patches being fully georeferenced at a 10 m ground sampling distance and covering all inhabited continents during all meteorological seasons, we expect the dataset to support the community in developing sophisticated deep learning-based approaches for common tasks such as scene classification or semantic segmentation for land cover mapping.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.CV"
+ },
+ "1706.09516": {
+  "id": "1706.09516",
+  "version": "1706.09516v5",
+  "title": "CatBoost: unbiased boosting with categorical features",
+  "authors": [
+   "Liudmila Prokhorenkova",
+   "Gleb Gusev",
+   "Aleksandr Vorobev",
+   "Anna Veronika Dorogush",
+   "Andrey Gulin"
+  ],
+  "published": "2017-06-28",
+  "summary": "This paper presents the key algorithmic techniques behind CatBoost, a new gradient boosting toolkit. Their combination leads to CatBoost outperforming other publicly available boosting implementations in terms of quality on a variety of datasets. Two critical algorithmic advances introduced in CatBoost are the implementation of ordered boosting, a permutation-driven alternative to the classic algorithm, and an innovative algorithm for processing categorical features. Both techniques were created to fight a prediction shift caused by a special kind of target leakage present in all currently existing implementations of gradient boosting algorithms. In this paper, we provide a detailed analysis of this problem and demonstrate that proposed algorithms solve it effectively, leading to excellent empirical results.",
+  "doi": null,
+  "journal_ref": null,
+  "category": "cs.LG"
+ },
+ "2402.13791": {
+  "id": "2402.13791",
+  "version": "2402.13791v2",
+  "title": "Opening the Black-Box: A Systematic Review on Explainable AI in Remote Sensing",
+  "authors": [
+   "Adrian Höhl",
+   "Ivica Obadic",
+   "Miguel Ángel Fernández Torres",
+   "Hiba Najjar",
+   "Dario Oliveira",
+   "Zeynep Akata",
+   "Andreas Dengel",
+   "Xiao Xiang Zhu"
+  ],
+  "published": "2024-02-21",
+  "summary": "In recent years, black-box machine learning approaches have become a dominant modeling paradigm for knowledge extraction in remote sensing. Despite the potential benefits of uncovering the inner workings of these models with explainable AI, a comprehensive overview summarizing the explainable AI methods used and their objectives, findings, and challenges in remote sensing applications is still missing. In this paper, we address this gap by performing a systematic review to identify the key trends in the field and shed light on novel explainable AI approaches and emerging directions that tackle specific remote sensing challenges. We also reveal the common patterns of explanation interpretation, discuss the extracted scientific insights, and reflect on the approaches used for the evaluation of explainable AI methods. As such, our review provides a complete summary of the state-of-the-art of explainable AI in remote sensing. Further, we give a detailed outlook on the challenges and promising research directions, representing a basis for novel methodological development and a useful starting point for new researchers in the field.",
+  "doi": "10.1109/MGRS.2024.3467001",
+  "journal_ref": "published in IEEE Geoscience and Remote Sensing Magazine, vol. 12, no. 4, pp. 261-304, Dec. 2024",
+  "category": "cs.LG"
+ },
+ "1905.04610": {
+  "id": "1905.04610",
+  "version": "1905.04610v1",
+  "title": "Explainable AI for Trees: From Local Explanations to Global Understanding",
+  "authors": [
+   "Scott M. Lundberg",
+   "Gabriel Erion",
+   "Hugh Chen",
+   "Alex DeGrave",
+   "Jordan M. Prutkin",
+   "Bala Nair",
+   "Ronit Katz",
+   "Jonathan Himmelfarb",
+   "Nisha Bansal",
+   "Su-In Lee"
+  ],
+  "published": "2019-05-11",
+  "summary": "Tree-based machine learning models such as random forests, decision trees, and gradient boosted trees are the most popular non-linear predictive models used in practice today, yet comparatively little attention has been paid to explaining their predictions. Here we significantly improve the interpretability of tree-based models through three main contributions: 1) The first polynomial time algorithm to compute optimal explanations based on game theory. 2) A new type of explanation that directly measures local feature interaction effects. 3) A new set of tools for understanding global model structure based on combining many local explanations of each prediction. We apply these tools to three medical machine learning problems and show how combining many high-quality local explanations allows us to represent global structure while retaining local faithfulness to the original model. These tools enable us to i) identify high magnitude but low frequency non-linear mortality risk factors in the general US population, ii) highlight distinct population sub-groups with shared risk characteristics, iii) identify non-linear interaction effects among risk factors for chronic kidney disease, and iv) monitor a machine learning model deployed in a hospital by identifying which features are degrading the model's performance over time. Given the popularity of tree-based machine learning models, these improvements to their interpretability have implications across a broad set of domains.",
+  "doi": null,
+  "journal_ref": null
+ }
+}

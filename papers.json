@@ -1,0 +1,468 @@
+{
+  "source": "arXiv API (export.arxiv.org); metadata verbatim, summaries hand-written from abstracts",
+  "count": 24,
+  "topics": [
+    {
+      "key": "lulc-ml",
+      "name": "LULC classification with Sentinel-2 / Landsat and machine learning",
+      "blurb": "Core papers on supervised land use / land cover mapping from optical satellite imagery.",
+      "papers": [
+        {
+          "id": "2608.12001",
+          "title": "Remote Sensing and Machine Learning-Based Analysis of Land Use and Vegetation Change in Dhaka District, Bangladesh",
+          "authors": [
+            "Muhammad Masud Tarek",
+            "Md. Alamgir Hossain",
+            "Md. Samiul Islam",
+            "Muntasir Hasan Kanchan"
+          ],
+          "year": 2026,
+          "published": "2026-08-12",
+          "abs_url": "https://arxiv.org/abs/2608.12001",
+          "pdf_url": "https://arxiv.org/pdf/2608.12001",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Uses Sentinel-2 and Landsat 8 with NDVI, NDBI and NDWI in Google Earth Engine to track land use and vegetation change in Dhaka (2019-2024), comparing Decision Tree, KNN and Random Forest. Random Forest performed best, and the study documents rapid built-up expansion at the expense of vegetation and water."
+        },
+        {
+          "id": "2104.10922",
+          "title": "Continental-scale land cover mapping at 10 m resolution over Europe (ELC10)",
+          "authors": [
+            "Zander S. Venter",
+            "Markus A. K. Sydenham"
+          ],
+          "year": 2021,
+          "published": "2021-04-22",
+          "abs_url": "https://arxiv.org/abs/2104.10922",
+          "pdf_url": "https://arxiv.org/pdf/2104.10922",
+          "doi": "10.3390/rs13122301",
+          "journal_ref": "Remote Sens. 2021, 13, 2301",
+          "summary": "Builds a 10 m land cover map of Europe (ELC10) with a Random Forest trained on LUCAS survey points inside Google Earth Engine. It reports that combining Sentinel-1 radar with Sentinel-2 optical data improved accuracy, while atmospheric correction and speckle filtering added little."
+        },
+        {
+          "id": "2004.12880",
+          "title": "Improvement in Land Cover and Crop Classification based on Temporal Features Learning from Sentinel-2 Data Using Recurrent-Convolutional Neural Network (R-CNN)",
+          "authors": [
+            "Vittorio Mazzia",
+            "Aleem Khaliq",
+            "Marcello Chiaberge"
+          ],
+          "year": 2020,
+          "published": "2020-04-27",
+          "abs_url": "https://arxiv.org/abs/2004.12880",
+          "pdf_url": "https://arxiv.org/pdf/2004.12880",
+          "doi": "10.3390/app10010238",
+          "journal_ref": "Appl. Sci. 2020, 10(1), 238",
+          "summary": "Proposes a recurrent-convolutional neural network that learns temporal features from multi-temporal Sentinel-2 imagery for pixel-based land cover and crop classification in northern Italy. It compares the deep model with traditional learners such as SVM and Random Forest."
+        },
+        {
+          "id": "1710.03959",
+          "title": "Deep learning in remote sensing: a review",
+          "authors": [
+            "Xiao Xiang Zhu",
+            "Devis Tuia",
+            "Lichao Mou",
+            "Gui-Song Xia",
+            "Liangpei Zhang",
+            "Feng Xu",
+            "Friedrich Fraundorfer"
+          ],
+          "year": 2017,
+          "published": "2017-10-11",
+          "abs_url": "https://arxiv.org/abs/1710.03959",
+          "pdf_url": "https://arxiv.org/pdf/1710.03959",
+          "doi": "10.1109/MGRS.2017.2762307",
+          "journal_ref": null,
+          "summary": "A widely cited review of deep learning for remote sensing that discusses its challenges, recent advances and practical resources. Useful context for when tree ensembles are (and are not) the right tool."
+        }
+      ]
+    },
+    {
+      "key": "ensembles",
+      "name": "Ensemble learners and gradient boosting",
+      "blurb": "The algorithms behind XGBoost and CatBoost, and a recent benchmark of tree ensembles for urban land cover.",
+      "papers": [
+        {
+          "id": "2609.19010",
+          "title": "Tabular Deep Learning vs Classical Machine Learning for Urban Land Cover Classification",
+          "authors": [
+            "Muntasir Tabasum",
+            "Tanpia Tasnim",
+            "Md. Ekramul Islam",
+            "Al Zadid Sultan Bin Habib"
+          ],
+          "year": 2026,
+          "published": "2026-07-20",
+          "abs_url": "https://arxiv.org/abs/2609.19010",
+          "pdf_url": "https://arxiv.org/pdf/2609.19010",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Benchmarks classical models (including Random Forest, XGBoost and CatBoost) against tabular deep learning models on the UCI Urban Land Cover dataset, using macro-F1 and confusion matrices. Tree ensembles remain strong baselines, while tabular deep models can match them when imbalance is handled well."
+        },
+        {
+          "id": "1706.09516",
+          "title": "CatBoost: unbiased boosting with categorical features",
+          "authors": [
+            "Liudmila Prokhorenkova",
+            "Gleb Gusev",
+            "Aleksandr Vorobev",
+            "Anna Veronika Dorogush",
+            "Andrey Gulin"
+          ],
+          "year": 2017,
+          "published": "2017-06-28",
+          "abs_url": "https://arxiv.org/abs/1706.09516",
+          "pdf_url": "https://arxiv.org/pdf/1706.09516",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Describes CatBoost's two key ideas, ordered boosting and a new way of handling categorical features, both designed to stop the 'prediction shift' caused by target leakage in standard gradient boosting."
+        },
+        {
+          "id": "1603.02754",
+          "title": "XGBoost: A Scalable Tree Boosting System",
+          "authors": [
+            "Tianqi Chen",
+            "Carlos Guestrin"
+          ],
+          "year": 2016,
+          "published": "2016-03-09",
+          "abs_url": "https://arxiv.org/abs/1603.02754",
+          "pdf_url": "https://arxiv.org/pdf/1603.02754",
+          "doi": "10.1145/2939672.2939785",
+          "journal_ref": null,
+          "summary": "The original XGBoost paper: a scalable tree-boosting system with a sparsity-aware split algorithm and weighted quantile sketch. It explains why XGBoost became a default strong baseline for tabular data."
+        }
+      ]
+    },
+    {
+      "key": "xai",
+      "name": "Explainable AI and SHAP",
+      "blurb": "Shapley-value explanations, tree-specific SHAP, and explainability reviews for remote sensing.",
+      "papers": [
+        {
+          "id": "2402.13791",
+          "title": "Opening the Black-Box: A Systematic Review on Explainable AI in Remote Sensing",
+          "authors": [
+            "Adrian Höhl",
+            "Ivica Obadic",
+            "Miguel Ángel Fernández Torres",
+            "Hiba Najjar",
+            "Dario Oliveira",
+            "Zeynep Akata",
+            "Andreas Dengel",
+            "Xiao Xiang Zhu"
+          ],
+          "year": 2024,
+          "published": "2024-02-21",
+          "abs_url": "https://arxiv.org/abs/2402.13791",
+          "pdf_url": "https://arxiv.org/pdf/2402.13791",
+          "doi": "10.1109/MGRS.2024.3467001",
+          "journal_ref": "published in IEEE Geoscience and Remote Sensing Magazine, vol. 12, no. 4, pp. 261-304, Dec. 2024",
+          "summary": "A systematic review of explainable AI in remote sensing: which methods are used, what they are used for, how explanations are interpreted and evaluated, and open challenges. A good map of the field for newcomers."
+        },
+        {
+          "id": "2310.02476",
+          "title": "ML4EJ: Decoding the Role of Urban Features in Shaping Environmental Injustice Using Interpretable Machine Learning",
+          "authors": [
+            "Yu-Hsuan Ho",
+            "Zhewei Liu",
+            "Cheng-Chun Lee",
+            "Ali Mostafavi"
+          ],
+          "year": 2023,
+          "published": "2023-10-03",
+          "abs_url": "https://arxiv.org/abs/2310.02476",
+          "pdf_url": "https://arxiv.org/pdf/2310.02476",
+          "doi": "10.1016/j.cities.2025.106546",
+          "journal_ref": "Cities 169 (2026) 106546",
+          "summary": "Uses Random Forest and XGBoost with feature-importance analysis to study how urban features, including land cover and infrastructure, shape exposure to air pollution, heat and flooding across six US counties. An example of interpretable ML applied to urban geography."
+        },
+        {
+          "id": "2301.01520",
+          "title": "Towards Explainable Land Cover Mapping: a Counterfactual-based Strategy",
+          "authors": [
+            "Cassio F. Dantas",
+            "Diego Marcos",
+            "Dino Ienco"
+          ],
+          "year": 2023,
+          "published": "2023-01-04",
+          "abs_url": "https://arxiv.org/abs/2301.01520",
+          "pdf_url": "https://arxiv.org/pdf/2301.01520",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Proposes a GAN-based counterfactual explanation method for land cover classification from satellite image time series, showing what minimal, time-localised changes would flip a prediction to another class."
+        },
+        {
+          "id": "1905.04610",
+          "title": "Explainable AI for Trees: From Local Explanations to Global Understanding",
+          "authors": [
+            "Scott M. Lundberg",
+            "Gabriel Erion",
+            "Hugh Chen",
+            "Alex DeGrave",
+            "Jordan M. Prutkin",
+            "Bala Nair",
+            "Ronit Katz",
+            "Jonathan Himmelfarb",
+            "Nisha Bansal",
+            "Su-In Lee"
+          ],
+          "year": 2019,
+          "published": "2019-05-11",
+          "abs_url": "https://arxiv.org/abs/1905.04610",
+          "pdf_url": "https://arxiv.org/pdf/1905.04610",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Presents TreeSHAP, a polynomial-time algorithm for exact Shapley-value explanations of tree models, plus interaction values and tools for turning many local explanations into global understanding. Directly relevant to explaining Random Forest, XGBoost, LightGBM and CatBoost."
+        },
+        {
+          "id": "1705.07874",
+          "title": "A Unified Approach to Interpreting Model Predictions",
+          "authors": [
+            "Scott Lundberg",
+            "Su-In Lee"
+          ],
+          "year": 2017,
+          "published": "2017-05-22",
+          "abs_url": "https://arxiv.org/abs/1705.07874",
+          "pdf_url": "https://arxiv.org/pdf/1705.07874",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Introduces SHAP (SHapley Additive exPlanations), a unified framework that assigns each feature an importance value for a single prediction, grounded in game-theoretic Shapley values. This is the method behind most SHAP plots in LULC papers."
+        }
+      ]
+    },
+    {
+      "key": "fusion",
+      "name": "Spectral indices, multi-source data and fusion",
+      "blurb": "Combining optical bands, radar, indices (NDVI, NDBI, ...) and auxiliary geographic layers.",
+      "papers": [
+        {
+          "id": "2605.24459",
+          "title": "Causal Evaluation of Contributing Factors to Urban Heat Island",
+          "authors": [
+            "Sadaf Alavi Soltani",
+            "Saeid Niazmardi",
+            "Ali Esmaeily"
+          ],
+          "year": 2026,
+          "published": "2026-05-23",
+          "abs_url": "https://arxiv.org/abs/2605.24459",
+          "pdf_url": "https://arxiv.org/pdf/2605.24459",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Analyses urban heat island drivers across Tehran's districts (2003-2021) using NDVI, EVI, NDBI, NDWI and NDSI time series with a Hotelling's T-square based causal test. Useful for seeing how spectral indices are interpreted as urban and vegetation proxies."
+        },
+        {
+          "id": "2507.13385",
+          "title": "Using Multiple Input Modalities Can Improve Data-Efficiency and O.O.D. Generalization for ML with Satellite Imagery",
+          "authors": [
+            "Arjun Rao",
+            "Esther Rolf"
+          ],
+          "year": 2025,
+          "published": "2025-07-15",
+          "abs_url": "https://arxiv.org/abs/2507.13385",
+          "pdf_url": "https://arxiv.org/pdf/2507.13385",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Shows that appending extra geographic layers (e.g. elevation and other non-optical inputs) to satellite imagery improves ML performance, especially with little labelled data and in out-of-region tests. Simple hard-coded fusion often beat learned fusion."
+        },
+        {
+          "id": "2312.10798",
+          "title": "Land use/land cover classification of fused Sentinel-1 and Sentinel-2 imageries using ensembles of Random Forests",
+          "authors": [
+            "Shivam Pande"
+          ],
+          "year": 2023,
+          "published": "2023-12-17",
+          "abs_url": "https://arxiv.org/abs/2312.10798",
+          "pdf_url": "https://arxiv.org/pdf/2312.10798",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Fuses Sentinel-1 SAR texture with Sentinel-2 VNIR-SWIR bands (Bayesian fusion) and classifies LULC with ensembles of Random Forests built with random rotations. It evaluates how fusion and rotation strategy affect accuracy."
+        }
+      ]
+    },
+    {
+      "key": "validation",
+      "name": "Sampling, validation and spatial pitfalls",
+      "blurb": "Reference data quality, spatial cross-validation and over-optimistic accuracy.",
+      "papers": [
+        {
+          "id": "2403.15720",
+          "title": "A Bayesian Inference Approach for Reducing Inter-Investigator Variability in Sampling-Based Land Cover Classification",
+          "authors": [
+            "Narumasa Tsutsumida",
+            "Akira Kato"
+          ],
+          "year": 2024,
+          "published": "2024-03-23",
+          "abs_url": "https://arxiv.org/abs/2403.15720",
+          "pdf_url": "https://arxiv.org/pdf/2403.15720",
+          "doi": "10.1080/01431161.2025.2496529",
+          "journal_ref": null,
+          "summary": "Studies how different people labelling reference samples changes land cover results (44 investigators, Saitama, Japan) and proposes a Bayesian (Dirichlet) fusion of classification maps to reduce that variability and salt-and-pepper noise."
+        },
+        {
+          "id": "1908.07805",
+          "title": "Importance of spatial predictor variable selection in machine learning applications -- Moving from data reproduction to spatial prediction",
+          "authors": [
+            "Hanna Meyer",
+            "Christoph Reudenbach",
+            "Stephan Wöllauer",
+            "Thomas Nauss"
+          ],
+          "year": 2019,
+          "published": "2019-08-21",
+          "abs_url": "https://arxiv.org/abs/1908.07805",
+          "pdf_url": "https://arxiv.org/pdf/1908.07805",
+          "doi": "10.1016/j.ecolmodel.2019.108815",
+          "journal_ref": "Ecological Modelling, 411, 2019, 108815",
+          "summary": "Demonstrates with Random Forest land cover and LAI case studies that random cross-validation gives over-optimistic accuracy for spatial data, and that spatial cross-validation plus spatial variable selection are needed. Location-like predictors can cause severe overfitting."
+        }
+      ]
+    },
+    {
+      "key": "africa",
+      "name": "Africa, Nigeria and fast-growing cities",
+      "blurb": "Land cover and settlement mapping in African and other rapidly urbanising contexts.",
+      "papers": [
+        {
+          "id": "2411.02935",
+          "title": "A High Resolution Urban and Rural Settlement Map of Africa Using Deep Learning and Satellite Imagery",
+          "authors": [
+            "Mohammad Kakooei",
+            "James Bailie",
+            "Markus B. Pettersson",
+            "Albin Söderberg",
+            "Albin Becevic",
+            "Adel Daoud"
+          ],
+          "year": 2024,
+          "published": "2024-11-05",
+          "abs_url": "https://arxiv.org/abs/2411.02935",
+          "pdf_url": "https://arxiv.org/pdf/2411.02935",
+          "doi": "10.1038/s41598-025-34295-7",
+          "journal_ref": "Scientific Reports 16, 637 (2026)",
+          "summary": "Produces a 10 m urban-rural settlement map for Africa (2016-2022) with a DeepLabV3 model fusing Landsat-8, VIIRS night lights, ESRI LULC and GHS-SMOD, validated against DHS survey labels."
+        },
+        {
+          "id": "2312.10872",
+          "title": "Evaluating the Role of Training Data Origin for Country-Scale Cropland Mapping in Data-Scarce Regions: A Case Study of Nigeria",
+          "authors": [
+            "Joaquin Gajardo",
+            "Michele Volpi",
+            "Daniel Onwude",
+            "Thijs Defraeye"
+          ],
+          "year": 2023,
+          "published": "2023-12-18",
+          "abs_url": "https://arxiv.org/abs/2312.10872",
+          "pdf_url": "https://arxiv.org/pdf/2312.10872",
+          "doi": "10.1016/j.ophoto.2025.100091",
+          "journal_ref": "ISPRS Open J. Photogramm. Remote Sens. 17 (2025) 100091",
+          "summary": "Country-scale cropland mapping in Nigeria with Sentinel-1, Sentinel-2, ERA5 climate and a DEM in Google Earth Engine, comparing Random Forest and LSTMs. Local (Nigeria-only) training data beat larger global datasets, and radar, climate and topography were important inputs."
+        },
+        {
+          "id": "2307.02575",
+          "title": "How accurate are existing land cover maps for agriculture in Sub-Saharan Africa?",
+          "authors": [
+            "Hannah Kerner",
+            "Catherine Nakalembe",
+            "Adam Yang",
+            "Ivan Zvonkov",
+            "Ryan McWeeny",
+            "Gabriel Tseng",
+            "Inbal Becker-Reshef"
+          ],
+          "year": 2023,
+          "published": "2023-07-05",
+          "abs_url": "https://arxiv.org/abs/2307.02575",
+          "pdf_url": "https://arxiv.org/pdf/2307.02575",
+          "doi": "10.1038/s41597-024-03306-z",
+          "journal_ref": "Scientific Data, 11(1), 486",
+          "summary": "Compares 11 public land cover maps against rigorous reference data from 8 Sub-Saharan African countries to see which identify cropland best. A reminder that global products can disagree strongly in African landscapes."
+        },
+        {
+          "id": "2205.02946",
+          "title": "Quality Assessment of the 20m SPOT DEM in Nigeria",
+          "authors": [
+            "Peter Nwilo",
+            "Johanson Onyegbula",
+            "Chukwuma Okolie",
+            "Olagoke Daramola",
+            "Oluwatimileyin Abolaji",
+            "Ikenna Arungwa"
+          ],
+          "year": 2022,
+          "published": "2022-05-05",
+          "abs_url": "https://arxiv.org/abs/2205.02946",
+          "pdf_url": "https://arxiv.org/pdf/2205.02946",
+          "doi": "10.1007/s12518-021-00404-0",
+          "journal_ref": "Applied Geomatics volume 14, (2022)",
+          "summary": "Assesses the vertical accuracy of the 20 m SPOT DEM against 780 ground control points in Lagos State and the FCT (Abuja), across land cover types. Relevant when using elevation, slope and aspect as features for Abuja-area studies."
+        }
+      ]
+    },
+    {
+      "key": "benchmarks",
+      "name": "Benchmark datasets",
+      "blurb": "Large labelled Sentinel datasets for training and comparing LULC models.",
+      "papers": [
+        {
+          "id": "1902.06148",
+          "title": "BigEarthNet: A Large-Scale Benchmark Archive For Remote Sensing Image Understanding",
+          "authors": [
+            "Gencer Sumbul",
+            "Marcela Charfuelan",
+            "Begüm Demir",
+            "Volker Markl"
+          ],
+          "year": 2019,
+          "published": "2019-02-16",
+          "abs_url": "https://arxiv.org/abs/1902.06148",
+          "pdf_url": "https://arxiv.org/pdf/1902.06148",
+          "doi": "10.1109/IGARSS.2019.8900532",
+          "journal_ref": null,
+          "summary": "Introduces BigEarthNet, a large multi-label archive of 590,326 Sentinel-2 patches labelled from CORINE Land Cover 2018. Shows that models trained on it outperform ImageNet-pretrained CNNs for RS scene classification."
+        },
+        {
+          "id": "1906.07789",
+          "title": "SEN12MS -- A Curated Dataset of Georeferenced Multi-Spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion",
+          "authors": [
+            "Michael Schmitt",
+            "Lloyd Haydn Hughes",
+            "Chunping Qiu",
+            "Xiao Xiang Zhu"
+          ],
+          "year": 2019,
+          "published": "2019-06-18",
+          "abs_url": "https://arxiv.org/abs/1906.07789",
+          "pdf_url": "https://arxiv.org/pdf/1906.07789",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "SEN12MS: 180,662 georeferenced triplets of Sentinel-1 SAR, Sentinel-2 multispectral patches and MODIS land cover covering all inhabited continents and seasons, built for deep learning and data fusion."
+        },
+        {
+          "id": "1709.00029",
+          "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+          "authors": [
+            "Patrick Helber",
+            "Benjamin Bischke",
+            "Andreas Dengel",
+            "Damian Borth"
+          ],
+          "year": 2017,
+          "published": "2017-08-31",
+          "abs_url": "https://arxiv.org/abs/1709.00029",
+          "pdf_url": "https://arxiv.org/pdf/1709.00029",
+          "doi": null,
+          "journal_ref": null,
+          "summary": "Introduces EuroSAT: 27,000 labelled, geo-referenced Sentinel-2 patches across 10 LULC classes and all 13 bands, with CNN baselines. A standard starter dataset for LULC classification."
+        }
+      ]
+    }
+  ]
+}

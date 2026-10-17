@@ -1,0 +1,32 @@
+---
+title: Reading List
+description: Curated arXiv papers on land use / land cover classification, grouped by topic.
+---
+<p class="lede">{{ site.data.papers.count }} papers from arXiv, grouped by topic. Titles, authors, years and identifiers come straight from the arXiv API. The short summaries are my own plain-language notes on each abstract.</p>
+
+<p>Download: <a href="{{ '/papers.bib' | relative_url }}">BibTeX</a> · <a href="{{ '/assets/data/papers.json' | relative_url }}">JSON</a></p>
+
+<ul class="topic-index">
+{% for t in site.data.papers.topics %}<li><a href="#{{ t.key }}">{{ t.name }}</a> ({{ t.papers | size }})</li>
+{% endfor %}</ul>
+
+{% for t in site.data.papers.topics %}
+<section id="{{ t.key }}">
+  <h2>{{ t.name }}</h2>
+  <p><em>{{ t.blurb }}</em></p>
+  {% for p in t.papers %}
+  <div class="paper" id="arxiv-{{ p.id | replace: '.', '-' }}">
+    <div class="paper-title"><a href="{{ p.abs_url }}">{{ p.title }}</a></div>
+    <div class="paper-meta">
+      {% if p.authors.size > 4 %}{{ p.authors | slice: 0, 3 | join: ", " }} et al.{% else %}{{ p.authors | join: ", " }}{% endif %}
+      · {{ p.year }} · arXiv:<a href="{{ p.abs_url }}">{{ p.id }}</a> · <a href="{{ p.pdf_url }}">PDF</a>{% if p.doi %} · <a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+    </div>
+    {% if p.journal_ref %}<div class="paper-meta">Published: {{ p.journal_ref }}</div>{% endif %}
+    <p class="paper-summary">{{ p.summary }}</p>
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
+
+<hr>
+<p class="note">Adding a paper: see the <code>README.md</code> in the repository. In short, fetch the paper's metadata from the arXiv API with <code>tools/arxiv_fetch.py</code>, add a one-to-two-sentence summary in <code>tools/curation.py</code>, then run <code>python3 tools/build_data.py</code>.</p>

@@ -1,0 +1,38 @@
+# GIS in Motion — Jekyll configuration (works with GitHub Pages' built-in Jekyll; no plugins required)
+title: GIS in Motion
+tagline: A learning library on land use / land cover classification with GIS, remote sensing and machine learning
+description: >-
+  Temitope Ogungbuji's self-directed learning library on land use and land cover (LULC)
+  classification: curated arXiv papers, methods articles, books and notes.
+author: Temitope Ogungbuji
+
+# Project site served at https://<your-github-username>.github.io/gisinmotion/
+baseurl: "/gisinmotion"
+url: "https://bambillion.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  auto_ids: true
+  toc_levels: 2..3
+
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - tools/
+  - screenshots/
+  - vendor/
+  - .jekyll-cache/
+  - papers.json
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { path: "articles" }
+    values: { layout: article }

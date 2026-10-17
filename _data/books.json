@@ -1,0 +1,144 @@
+{
+  "sections": [
+    {
+      "name": "Core textbooks",
+      "items": [
+        {
+          "title": "Remote Sensing and Image Interpretation (7th ed.)",
+          "authors": "Thomas M. Lillesand, Ralph W. Kiefer, Jonathan W. Chipman",
+          "year": 2015,
+          "publisher": "Wiley",
+          "url": "https://www.wiley.com/en-us/Remote+Sensing+and+Image+Interpretation%2C+7th+Edition-p-9781118343289",
+          "access": "Paid",
+          "why": "A standard introductory text covering sensors, image interpretation and digital image analysis, including classification.",
+          "status": "To read"
+        },
+        {
+          "title": "Assessing the Accuracy of Remotely Sensed Data: Principles and Practices (3rd ed.)",
+          "authors": "Russell G. Congalton, Kass Green",
+          "year": 2019,
+          "publisher": "CRC Press",
+          "url": "https://www.routledge.com/Assessing-the-Accuracy-of-Remotely-Sensed-Data-Principles-and-Practices-Third-Edition/Congalton-Green/p/book/9780367656676",
+          "access": "Paid",
+          "why": "The reference on error matrices, reference data collection and thematic map accuracy assessment.",
+          "status": "To read"
+        }
+      ]
+    },
+    {
+      "name": "Free online books",
+      "items": [
+        {
+          "title": "Geocomputation with Python",
+          "authors": "Michael Dorman, Anita Graser, Jakub Nowosad, Robin Lovelace",
+          "year": 2025,
+          "publisher": "CRC Press / open online edition",
+          "url": "https://py.geocompx.org/",
+          "access": "Free online",
+          "why": "Hands-on vector and raster GIS in Python (geopandas, rasterio): the practical base for the code in this site.",
+          "status": "To read"
+        },
+        {
+          "title": "Geocomputation with R",
+          "authors": "Robin Lovelace, Jakub Nowosad, Jannes Muenchow",
+          "year": null,
+          "publisher": "CRC Press / open online edition",
+          "url": "https://r.geocompx.org/",
+          "access": "Free online",
+          "why": "The R sister book; includes spatial cross-validation and statistical learning with geographic data.",
+          "status": "Optional"
+        },
+        {
+          "title": "Interpretable Machine Learning",
+          "authors": "Christoph Molnar",
+          "year": null,
+          "publisher": "Open online edition",
+          "url": "https://christophm.github.io/interpretable-ml-book/",
+          "access": "Free online",
+          "why": "Clear chapters on Shapley values, SHAP and permutation importance, with honest discussion of their limits.",
+          "status": "To read"
+        }
+      ]
+    },
+    {
+      "name": "Classification systems and standards",
+      "items": [
+        {
+          "title": "A Land Use and Land Cover Classification System for Use with Remote Sensor Data (USGS Professional Paper 964)",
+          "authors": "James R. Anderson, Ernest E. Hardy, John T. Roach, Richard E. Witmer",
+          "year": 1976,
+          "publisher": "U.S. Geological Survey",
+          "url": "https://pubs.usgs.gov/pp/0964/report.pdf",
+          "access": "Free",
+          "why": "The classic hierarchical LULC scheme (Level I/II classes) that many class legends still echo.",
+          "status": "To read"
+        }
+      ]
+    },
+    {
+      "name": "Data and software documentation",
+      "items": [
+        {
+          "title": "Sentinel-2 mission (SentiWiki)",
+          "authors": "ESA / Copernicus",
+          "year": null,
+          "publisher": "European Space Agency",
+          "url": "https://sentiwiki.copernicus.eu/web/s2-mission",
+          "access": "Free",
+          "why": "Official band, resolution and product-level reference for Sentinel-2 MSI.",
+          "status": "Reference"
+        },
+        {
+          "title": "Copernicus DEM",
+          "authors": "Copernicus Data Space Ecosystem",
+          "year": null,
+          "publisher": "ESA / Copernicus",
+          "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+          "access": "Free",
+          "why": "Global elevation model for deriving elevation, slope and aspect features.",
+          "status": "Reference"
+        },
+        {
+          "title": "WorldPop",
+          "authors": "WorldPop",
+          "year": null,
+          "publisher": "University of Southampton",
+          "url": "https://www.worldpop.org/",
+          "access": "Free",
+          "why": "Gridded population data used as a socio-demographic covariate.",
+          "status": "Reference"
+        },
+        {
+          "title": "SHAP documentation",
+          "authors": "SHAP contributors",
+          "year": null,
+          "publisher": "Open source",
+          "url": "https://shap.readthedocs.io/en/latest/",
+          "access": "Free",
+          "why": "API reference and examples for TreeExplainer and summary plots.",
+          "status": "Reference"
+        },
+        {
+          "title": "LightGBM documentation",
+          "authors": "Microsoft / LightGBM contributors",
+          "year": null,
+          "publisher": "Open source",
+          "url": "https://lightgbm.readthedocs.io/en/latest/",
+          "access": "Free",
+          "why": "Parameter guide (num_leaves, learning_rate, etc.) for tuning.",
+          "status": "Reference"
+        },
+        {
+          "title": "rasterio documentation",
+          "authors": "rasterio contributors",
+          "year": null,
+          "publisher": "Open source",
+          "url": "https://rasterio.readthedocs.io/en/stable/",
+          "access": "Free",
+          "why": "Reading, writing and windowing GeoTIFF rasters in Python.",
+          "status": "Reference"
+        }
+      ]
+    }
+  ]
+}
